@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "MMDrawerControllerKit"
+  s.name         = "MMDrawerController"
   s.version      = "1.0.0"
   s.summary      = "A lightweight, easy-to-use side drawer navigation controller."
   s.homepage     = "https://github.com/Bogon/MMDrawerControllerKit"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Bogon" => "zhangqixcu@gmail.com" }
   s.source       = { :git => "https://github.com/Bogon/MMDrawerControllerKit.git", :tag => "1.0.0" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.screenshots = [ "http://mutualmobile.github.io/MMDrawerController/ExampleImages/example1.png",
                        "http://mutualmobile.github.io/MMDrawerController/ExampleImages/example2.png" ]

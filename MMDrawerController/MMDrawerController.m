@@ -681,14 +681,14 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
     return NO;
 }
     
--(BOOL)shouldAutomaticallyForwardRotationMethods{
-    return NO;
-}
-    
--(BOOL)automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers{
-    return NO;
-}
-    
+//-(BOOL)shouldAutomaticallyForwardRotationMethods{
+//    return NO;
+//}
+//
+//-(BOOL)automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers{
+//    return NO;
+//}
+//
 #pragma mark - View Lifecycle
     
 - (void)viewDidLoad {
